@@ -3,7 +3,7 @@ guid: c1d46afcc2040e14b8fd44e1e3a288c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,9 +33,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -51,7 +52,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -62,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -91,15 +93,51 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: 182, y: 68.5}
+      - {x: 143, y: 41.5}
+      - {x: 121, y: 29.5}
+      - {x: 130, y: 1.5}
+      - {x: 207, y: -113.5}
+      - {x: 240, y: -127.5}
+      - {x: 237, y: -146.5}
+      - {x: 203, y: -159.5}
+      - {x: 183, y: -139.5}
+      - {x: 166, y: -145.5}
+      - {x: 176, y: -126.5}
+      - {x: 132, y: -74.5}
+      - {x: 79, y: 25.5}
+      - {x: 42, y: 22.5}
+      - {x: 32, y: -8.5}
+      - {x: -53, y: 17.5}
+      - {x: -77, y: 14.5}
+      - {x: -55, y: 45.5}
+      - {x: -167, y: -3.5}
+      - {x: -161, y: -25.5}
+      - {x: -178, y: -11.5}
+      - {x: -201, y: -34.5}
+      - {x: -201, y: -20.5}
+      - {x: -215, y: -26.5}
+      - {x: -218, y: -14.5}
+      - {x: -233, y: -7.5}
+      - {x: -236, y: 2.5}
+      - {x: -107, y: 61.5}
+      - {x: -39, y: 110.5}
+      - {x: 20, y: 131.5}
+      - {x: 49, y: 125.5}
+      - {x: 79, y: 149.5}
+      - {x: 105, y: 159.5}
+      - {x: 158, y: 155.5}
+      - {x: 189, y: 121.5}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
