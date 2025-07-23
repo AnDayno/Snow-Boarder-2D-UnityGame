@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class FinishLine : MonoBehaviour
@@ -9,7 +10,7 @@ public class FinishLine : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("You finished!");
+            SceneManager.LoadScene(0);
         }  
     }
 }

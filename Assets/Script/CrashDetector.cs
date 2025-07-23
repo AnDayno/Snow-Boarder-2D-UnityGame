@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class CrashDetector : MonoBehaviour
@@ -8,7 +9,7 @@ public class CrashDetector : MonoBehaviour
     {
         if (collision.collider.CompareTag("Head"))
         {
-            Debug.Log("You crashed!");
+            SceneManager.LoadScene(0);
         }
         else if (collision.collider.CompareTag("LeftArm"))
         {
