@@ -8,6 +8,7 @@ TagManager:
   - RightArm
   - LeftArm
   - Obstacle
+  - Snow
   layers:
   - Default
   - TransparentFX
