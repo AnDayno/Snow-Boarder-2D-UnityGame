@@ -12,6 +12,7 @@ public class CrashDetector : MonoBehaviour
     {
         if (collision.collider.CompareTag("Obstacle") || collision.collider.CompareTag("Snow"))
         {
+            FindObjectOfType<PlayerController>().disableControls();
             crashEffect.Play();
             GetComponent<AudioSource>().PlayOneShot(crashSFX, 0.5f);
             Invoke(nameof(ReloadScene), reloadDelay);
