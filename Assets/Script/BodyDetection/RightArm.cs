@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class RightArm : MonoBehaviour
 {
+    Rigidbody2D rb;
+
+    [SerializeField] ParticleSystem bloodTrail;
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Obstacle") || collision.collider.CompareTag("Snow"))
         {
-            Debug.Log("You crashed with your right arm!");
+            if(!TryGetComponent<Rigidbody2D>(out rb))
+            {
+                Debug.Log("You crashed with your left arm!");
+                rb = gameObject.AddComponent<Rigidbody2D>();
+                rb.bodyType = RigidbodyType2D.Dynamic;
+                rb.mass = 0.2f;
+                rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+                bloodTrail.Play();
+            }
         }
     }
 }
