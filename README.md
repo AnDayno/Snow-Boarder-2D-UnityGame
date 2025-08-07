@@ -13,4 +13,4 @@ A smooth, relaxing 2D snowboarding demo built in Unity, created while following 
 ## 🚀 Getting Started
 1. **Clone** this repo:  
    ```bash
-   git clone https://github.com/YourUsername/2d-snowboarder.git
+   git clone https://github.com/AnDayno/Snow-Boarder-2D-UnityGame.git
